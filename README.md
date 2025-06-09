@@ -53,15 +53,7 @@ my-streamlit-ap
 
 ## Project Structure
 
-undefined
-Hiring-Agent/
-├── app/ # Core modules and logic
-├── Streamlit_app.py # Main Streamlit app
-├── requirements.txt
-├── Dockerfile
-├── .env.example
-├── .gitignore
-└── README.md
+<pre> ``` Hiring-Agent/ ├── app/ # Core modules and logic ├── Streamlit_app.py # Main Streamlit app ├── requirements.txt ├── Dockerfile ├── .env.example ├── .gitignore └── README.md ``` </pre>
 
 
 
