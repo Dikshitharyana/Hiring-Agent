@@ -12,7 +12,7 @@ TalentScout is an interactive Streamlit app for conducting technical interviews 
 
 ## Demo
 
-![screenshot](screenshot.png) <!-- Add a screenshot of your app here -->
+![screenshot](image.png) <!-- Add a screenshot of your app here -->
 
 ## Getting Started
 
