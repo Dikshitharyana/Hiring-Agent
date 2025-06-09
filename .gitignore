@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+*.env
+
+# VS Code
+.vscode/
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Encrypted candidate data file
+candidate_data.enc
+data/
