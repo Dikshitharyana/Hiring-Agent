@@ -49,24 +49,19 @@ docker build -t my-streamlit-app .
 docker run -p 8501:8501
 -e TOGETHER_API_KEY=your-key
 -e FERNET_KEY=your-fernet-key
-my-streamlit-app
-
-
-### Deployment
-
-- **Streamlit Cloud:** Connect your repo, set secrets in the UI, and deploy.
-- **AWS/GCP:** Use Docker image and set environment variables using the platform’s secret manager.
+my-streamlit-ap
 
 ## Project Structure
 
-your-repo/
-├── app/ # Core modules and logic
-├── Streamlit_app.py # Main Streamlit app
+Hiring-Agent/
+├── app/                # Core modules and logic
+├── Streamlit_app.py    # Main Streamlit app
 ├── requirements.txt
 ├── Dockerfile
 ├── .env.example
 ├── .gitignore
 └── README.md
+
 
 
 ## Technologies Used
