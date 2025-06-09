@@ -15,6 +15,7 @@ def decrypt_data(token: bytes) -> Dict[str, Any]:
     return json.loads(fernet.decrypt(token).decode())
 
 def save_candidate_data(candidate_data: Dict[str, Any], filename: str = "data/candidate_data.enc") -> None:
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
     encrypted = encrypt_data(candidate_data)
     with open(filename, "ab") as f:  # append to allow multiple entries
         f.write(encrypted + b"\n")
